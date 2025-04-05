@@ -54,3 +54,42 @@
 [15:52:24] [User Authenticator #0/INFO]: UUID of player IIGrimXa10 is 9db96c25-b94f-4c09-b775-def82a90fa87
 [15:52:25] [Server thread/INFO]: IIGrimXa10 joined the game
 [15:52:25] [Server thread/INFO]: IIGrimXa10[/127.93.207.44:51453] logged in with entity id 139 at ([world]0.5, 64.0, -7.5)
+[16:05:06] [User Authenticator #1/INFO]: UUID of player xnikgoldx is 21807bf5-224f-4295-9eaa-782fc42f7067
+[16:05:08] [Server thread/INFO]: xnikgoldx joined the game
+[16:05:08] [Server thread/INFO]: xnikgoldx[/127.201.94.87:58539] logged in with entity id 1930 at ([world]-7.5, 63.0, 5.5)
+[16:05:45] [Server thread/INFO]: Set the time to 1000
+[16:05:59] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Ayer en el otro mundo habia hecho una TNT'. Is the client/server system time unsynchronized?
+[16:05:59] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Ayer en el otro mundo habia hecho una TNT
+[16:06:14] [Async Chat Thread - #2/INFO]: <IIGrimXa10> esa que me acaba de explotar en la espalda?
+[16:06:20] [Async Chat Thread - #2/INFO]: <IIGrimXa10> esa misma?
+[16:06:25] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Eso era un creeper'. Is the client/server system time unsynchronized?
+[16:06:25] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Eso era un creeper
+[16:06:33] [Async Chat Thread - #2/INFO]: <IIGrimXa10> yo vi que era una TNT
+[16:06:33] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'La tenia en un barril'. Is the client/server system time unsynchronized?
+[16:06:33] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> La tenia en un barril
+[16:06:57] [Server thread/INFO]: IIGrimXa10 was slain by Spider
+[16:07:01] [Server thread/INFO]: xnikgoldx has made the advancement [Monster Hunter]
+[16:07:15] [Async Chat Thread - #2/INFO]: <IIGrimXa10> Ah
+[16:07:19] [Async Chat Thread - #2/INFO]: <IIGrimXa10> Me siento viejo XD
+[16:07:34] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Por?'. Is the client/server system time unsynchronized?
+[16:07:34] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Por?
+[16:09:37] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Creo que o hay cueva o hay un spawner'. Is the client/server system time unsynchronized?
+[16:09:37] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Creo que o hay cueva o hay un spawner
+[16:09:44] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Esta semilla
+[16:09:58] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Es la misma de la noche pasada
+[16:10:06] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Es que acaso el MSX tiene algo con esta semilla
+[16:10:07] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Lol
+[16:10:10] [Server thread/INFO]: Seed: [717904106782051295]
+[16:10:19] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Puede ser'. Is the client/server system time unsynchronized?
+[16:10:19] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Puede ser
+[16:10:19] [Async Chat Thread - #3/INFO]: <IIGrimXa10> 717904106782051295
+[16:10:23] [Async Chat Thread - #3/INFO]: <IIGrimXa10> esa es
+[16:10:26] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Pense que era el mismo mundo'. Is the client/server system time unsynchronized?
+[16:10:26] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Pense que era el mismo mundo
+[16:10:37] [Async Chat Thread - #3/INFO]: <IIGrimXa10> llevo ya creando 12 mundos iguales
+[16:10:41] [Async Chat Thread - #3/INFO]: <IIGrimXa10> siempre con la misma semilla
+[16:10:44] [Async Chat Thread - #3/INFO]: <IIGrimXa10> no la eleji yo
+[16:10:45] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Lol
+[16:11:16] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'que bioma vamos?'. Is the client/server system time unsynchronized?
+[16:11:16] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> que bioma vamos?
+[16:11:24] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Me gusta este (?)
