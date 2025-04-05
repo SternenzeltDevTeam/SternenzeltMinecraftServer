@@ -1,31 +1,56 @@
-[03:38:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:38:18] [ServerMain/INFO]: No existing world data, creating new world
-[03:38:18] [ServerMain/INFO]: Loaded 1290 recipes
-[03:38:18] [ServerMain/INFO]: Loaded 1399 advancements
-[03:38:19] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:38:19] [Server thread/INFO]: Loading properties
-[03:38:19] [Server thread/INFO]: Default game type: SURVIVAL
-[03:38:19] [Server thread/INFO]: Generating keypair
-[03:38:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:38:19] [Server thread/INFO]: Using epoll channel type
-[03:38:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:38:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:38:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:38:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:38:19] [Server thread/INFO]: Preparing level "world"
-[03:38:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:38:24] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[03:38:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[03:38:25] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[03:38:26] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[03:38:26] [Worker-Main-3/INFO]: Preparing spawn area: 12%
-[03:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[03:38:27] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[03:38:28] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[03:38:28] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[03:38:29] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[03:38:29] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[03:38:30] [Server thread/INFO]: Time elapsed: 5302 ms
-[03:38:30] [Server thread/INFO]: Done (10.294s)! For help, type "help"
-[03:38:41] [Server thread/INFO]: IIGrimXa10[/127.93.207.44:52041] logged in with entity id 19 at (5.5, 63.0, -4.5)
-[03:38:41] [Server thread/INFO]: IIGrimXa10 joined the game
+[15:51:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[15:51:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[15:51:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:51:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[15:51:14] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[15:51:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:51:19] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[15:51:19] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[15:51:22] [ServerMain/INFO]: Loaded 1290 recipes
+[15:51:22] [ServerMain/INFO]: Loaded 1399 advancements
+[15:51:23] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:51:23] [Server thread/INFO]: Loading properties
+[15:51:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[15:51:23] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 8895ms.
+[15:51:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:51:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:51:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:51:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[15:51:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:51:25] [Server thread/INFO]: Generating keypair
+[15:51:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:51:25] [Server thread/INFO]: Using epoll channel type
+[15:51:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:51:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:51:25] [Server thread/INFO]: Preparing level "world"
+[15:51:25] [Server thread/INFO]: ---- Migration of old nether folder required ----
+[15:51:25] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
+[15:51:25] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[15:51:25] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
+[15:51:25] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
+[15:51:25] [Server thread/INFO]: ---- Migration of old nether folder complete ----
+[15:51:25] [Server thread/INFO]: ---- Migration of old the_end folder required ----
+[15:51:25] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
+[15:51:25] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[15:51:25] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
+[15:51:25] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
+[15:51:25] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
+[15:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:51:27] [Server thread/INFO]: Time elapsed: 1524 ms
+[15:51:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:51:32] [Server thread/INFO]: Time elapsed: 5529 ms
+[15:51:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:51:33] [Server thread/INFO]: Time elapsed: 1094 ms
+[15:51:33] [Server thread/INFO]: [spark] Starting background profiler...
+[15:51:34] [Server thread/INFO]: Done preparing level "world" (9.161s)
+[15:51:34] [Server thread/INFO]: Running delayed init tasks
+[15:51:34] [Server thread/INFO]: Done (22.085s)! For help, type "help"
+[15:51:34] [Server thread/INFO]: *************************************************************************************
+[15:51:34] [Server thread/INFO]: This is the first time you're starting this server.
+[15:51:34] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[15:51:34] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[15:51:34] [Server thread/INFO]: *************************************************************************************
+[15:51:34] [Server thread/INFO]: Timings Reset
+[15:52:24] [User Authenticator #0/INFO]: UUID of player IIGrimXa10 is 9db96c25-b94f-4c09-b775-def82a90fa87
+[15:52:25] [Server thread/INFO]: IIGrimXa10 joined the game
+[15:52:25] [Server thread/INFO]: IIGrimXa10[/127.93.207.44:51453] logged in with entity id 139 at ([world]0.5, 64.0, -7.5)
