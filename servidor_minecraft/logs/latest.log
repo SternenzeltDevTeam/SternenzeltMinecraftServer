@@ -1,207 +1,36 @@
-[15:51:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[15:51:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[15:51:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:51:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[15:51:14] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[15:51:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:51:19] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[15:51:19] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[15:51:22] [ServerMain/INFO]: Loaded 1290 recipes
-[15:51:22] [ServerMain/INFO]: Loaded 1399 advancements
-[15:51:23] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:51:23] [Server thread/INFO]: Loading properties
-[15:51:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:51:23] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 8895ms.
-[15:51:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:51:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:51:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:51:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:51:25] [Server thread/INFO]: Default game type: SURVIVAL
-[15:51:25] [Server thread/INFO]: Generating keypair
-[15:51:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:51:25] [Server thread/INFO]: Using epoll channel type
-[15:51:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:51:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:51:25] [Server thread/INFO]: Preparing level "world"
-[15:51:25] [Server thread/INFO]: ---- Migration of old nether folder required ----
-[15:51:25] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
-[15:51:25] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[15:51:25] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
-[15:51:25] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
-[15:51:25] [Server thread/INFO]: ---- Migration of old nether folder complete ----
-[15:51:25] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[15:51:25] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[15:51:25] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[15:51:25] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
-[15:51:25] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
-[15:51:25] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[15:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:51:27] [Server thread/INFO]: Time elapsed: 1524 ms
-[15:51:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:51:32] [Server thread/INFO]: Time elapsed: 5529 ms
-[15:51:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:51:33] [Server thread/INFO]: Time elapsed: 1094 ms
-[15:51:33] [Server thread/INFO]: [spark] Starting background profiler...
-[15:51:34] [Server thread/INFO]: Done preparing level "world" (9.161s)
-[15:51:34] [Server thread/INFO]: Running delayed init tasks
-[15:51:34] [Server thread/INFO]: Done (22.085s)! For help, type "help"
-[15:51:34] [Server thread/INFO]: *************************************************************************************
-[15:51:34] [Server thread/INFO]: This is the first time you're starting this server.
-[15:51:34] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[15:51:34] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[15:51:34] [Server thread/INFO]: *************************************************************************************
-[15:51:34] [Server thread/INFO]: Timings Reset
-[15:52:24] [User Authenticator #0/INFO]: UUID of player IIGrimXa10 is 9db96c25-b94f-4c09-b775-def82a90fa87
-[15:52:25] [Server thread/INFO]: IIGrimXa10 joined the game
-[15:52:25] [Server thread/INFO]: IIGrimXa10[/127.93.207.44:51453] logged in with entity id 139 at ([world]0.5, 64.0, -7.5)
-[16:05:06] [User Authenticator #1/INFO]: UUID of player xnikgoldx is 21807bf5-224f-4295-9eaa-782fc42f7067
-[16:05:08] [Server thread/INFO]: xnikgoldx joined the game
-[16:05:08] [Server thread/INFO]: xnikgoldx[/127.201.94.87:58539] logged in with entity id 1930 at ([world]-7.5, 63.0, 5.5)
-[16:05:45] [Server thread/INFO]: Set the time to 1000
-[16:05:59] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Ayer en el otro mundo habia hecho una TNT'. Is the client/server system time unsynchronized?
-[16:05:59] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Ayer en el otro mundo habia hecho una TNT
-[16:06:14] [Async Chat Thread - #2/INFO]: <IIGrimXa10> esa que me acaba de explotar en la espalda?
-[16:06:20] [Async Chat Thread - #2/INFO]: <IIGrimXa10> esa misma?
-[16:06:25] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Eso era un creeper'. Is the client/server system time unsynchronized?
-[16:06:25] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Eso era un creeper
-[16:06:33] [Async Chat Thread - #2/INFO]: <IIGrimXa10> yo vi que era una TNT
-[16:06:33] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'La tenia en un barril'. Is the client/server system time unsynchronized?
-[16:06:33] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> La tenia en un barril
-[16:06:57] [Server thread/INFO]: IIGrimXa10 was slain by Spider
-[16:07:01] [Server thread/INFO]: xnikgoldx has made the advancement [Monster Hunter]
-[16:07:15] [Async Chat Thread - #2/INFO]: <IIGrimXa10> Ah
-[16:07:19] [Async Chat Thread - #2/INFO]: <IIGrimXa10> Me siento viejo XD
-[16:07:34] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Por?'. Is the client/server system time unsynchronized?
-[16:07:34] [Async Chat Thread - #2/INFO]: [Not Secure] <xnikgoldx> Por?
-[16:09:37] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Creo que o hay cueva o hay un spawner'. Is the client/server system time unsynchronized?
-[16:09:37] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Creo que o hay cueva o hay un spawner
-[16:09:44] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Esta semilla
-[16:09:58] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Es la misma de la noche pasada
-[16:10:06] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Es que acaso el MSX tiene algo con esta semilla
-[16:10:07] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Lol
-[16:10:10] [Server thread/INFO]: Seed: [717904106782051295]
-[16:10:19] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Puede ser'. Is the client/server system time unsynchronized?
-[16:10:19] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Puede ser
-[16:10:19] [Async Chat Thread - #3/INFO]: <IIGrimXa10> 717904106782051295
-[16:10:23] [Async Chat Thread - #3/INFO]: <IIGrimXa10> esa es
-[16:10:26] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Pense que era el mismo mundo'. Is the client/server system time unsynchronized?
-[16:10:26] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> Pense que era el mismo mundo
-[16:10:37] [Async Chat Thread - #3/INFO]: <IIGrimXa10> llevo ya creando 12 mundos iguales
-[16:10:41] [Async Chat Thread - #3/INFO]: <IIGrimXa10> siempre con la misma semilla
-[16:10:44] [Async Chat Thread - #3/INFO]: <IIGrimXa10> no la eleji yo
-[16:10:45] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Lol
-[16:11:16] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'que bioma vamos?'. Is the client/server system time unsynchronized?
-[16:11:16] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> que bioma vamos?
-[16:11:24] [Async Chat Thread - #3/INFO]: <IIGrimXa10> Me gusta este (?)
-[16:11:53] [Async Chat Thread - #3/INFO]: <IIGrimXa10> uhmmmm
-[16:11:58] [Netty Epoll Server IO #2/WARN]: Received expired chat: '60 FPS perfectos, en limitado. Y en una jungla boa shorar'. Is the client/server system time unsynchronized?
-[16:11:58] [Async Chat Thread - #3/INFO]: [Not Secure] <xnikgoldx> 60 FPS perfectos, en limitado. Y en una jungla boa shorar
-[16:12:08] [Async Chat Thread - #3/INFO]: <IIGrimXa10> ??
-[16:12:10] [Async Chat Thread - #3/INFO]: <IIGrimXa10> esto no es jg
-[16:12:16] [Async Chat Thread - #4/INFO]: <IIGrimXa10> Ves alla al fondo?
-[16:12:17] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Alla esta'. Is the client/server system time unsynchronized?
-[16:12:17] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> Alla esta
-[16:12:20] [Async Chat Thread - #4/INFO]: <IIGrimXa10> ESO ES JUNGLA
-[16:12:30] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Y el bioma se llama sparse jungle'. Is the client/server system time unsynchronized?
-[16:12:30] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> Y el bioma se llama sparse jungle
-[16:12:36] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'en F3'. Is the client/server system time unsynchronized?
-[16:12:36] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> en F3
-[16:12:50] [Async Chat Thread - #4/INFO]: <IIGrimXa10> El ark me tiene acostumbrado a sus crafteos raros
-[16:13:03] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Mineshaft'. Is the client/server system time unsynchronized?
-[16:13:03] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> Mineshaft
-[16:13:13] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'la tentación'. Is the client/server system time unsynchronized?
-[16:13:13] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> la tentación
-[16:13:16] [Async Chat Thread - #4/INFO]: <IIGrimXa10> es graciosos verte con esa skin xd
-[16:13:17] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'de empujarte'. Is the client/server system time unsynchronized?
-[16:13:17] [Async Chat Thread - #4/INFO]: [Not Secure] <xnikgoldx> de empujarte
-[16:13:29] [Server thread/INFO]: xnikgoldx has made the advancement [Stone Age]
-[16:13:32] [Server thread/INFO]: IIGrimXa10 has made the advancement [Stone Age]
-[16:13:35] [Async Chat Thread - #4/INFO]: <IIGrimXa10> XD
-[16:15:09] [Server thread/INFO]: xnikgoldx has made the advancement [Getting an Upgrade]
-[16:15:14] [Server thread/INFO]: IIGrimXa10 has made the advancement [Getting an Upgrade]
-[16:16:37] [Async Chat Thread - #5/INFO]: <IIGrimXa10> te hablas con el hiei?
-[16:16:52] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Hace mucho que no desde que se me murio la PC'. Is the client/server system time unsynchronized?
-[16:16:52] [Async Chat Thread - #5/INFO]: [Not Secure] <xnikgoldx> Hace mucho que no desde que se me murio la PC
-[16:17:16] [Async Chat Thread - #5/INFO]: <IIGrimXa10> Uhmm para invitarlos a jugar
-[16:17:37] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Creo que aun esta en facebook?'. Is the client/server system time unsynchronized?
-[16:17:37] [Async Chat Thread - #5/INFO]: [Not Secure] <xnikgoldx> Creo que aun esta en facebook?
-[16:17:43] [Async Chat Thread - #5/INFO]: <IIGrimXa10> Benja Briones Lacrux
-[16:17:47] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'sip'. Is the client/server system time unsynchronized?
-[16:17:47] [Async Chat Thread - #5/INFO]: [Not Secure] <xnikgoldx> sip
-[16:17:48] [Async Chat Thread - #5/INFO]: <IIGrimXa10> Creo que es su fb
-[16:18:48] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'asi no te matan'. Is the client/server system time unsynchronized?
-[16:18:48] [Async Chat Thread - #7/INFO]: [Not Secure] <xnikgoldx> asi no te matan
-[16:18:57] [Async Chat Thread - #7/INFO]: <IIGrimXa10> de hecho pensaba en suicidarme
-[16:19:53] [Server thread/INFO]: IIGrimXa10 was shot by Skeleton
-[16:19:59] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'xd'. Is the client/server system time unsynchronized?
-[16:19:59] [Async Chat Thread - #9/INFO]: [Not Secure] <xnikgoldx> xd
-[16:20:18] [Server thread/INFO]: xnikgoldx was slain by Spider
-[16:20:45] [Server thread/INFO]: IIGrimXa10 has made the advancement [Monster Hunter]
-[16:20:53] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'habemus caña de pescar'. Is the client/server system time unsynchronized?
-[16:20:53] [Async Chat Thread - #9/INFO]: [Not Secure] <xnikgoldx> habemus caña de pescar
-[16:22:56] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'tres de polvora'. Is the client/server system time unsynchronized?
-[16:22:56] [Async Chat Thread - #11/INFO]: [Not Secure] <xnikgoldx> tres de polvora
-[16:23:04] [Server thread/INFO]: IIGrimXa10 was slain by Drowned
-[16:24:47] [Async Chat Thread - #13/INFO]: <IIGrimXa10> Uhmm
-[16:24:51] [Async Chat Thread - #13/INFO]: <IIGrimXa10> Oye, en farfadox
-[16:24:55] [Async Chat Thread - #13/INFO]: <IIGrimXa10> Pueden usar el chat de voz
-[16:25:03] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'sip'. Is the client/server system time unsynchronized?
-[16:25:03] [Async Chat Thread - #13/INFO]: [Not Secure] <xnikgoldx> sip
-[16:25:05] [Async Chat Thread - #13/INFO]: <IIGrimXa10> Por proximidad
-[16:25:07] [Async Chat Thread - #13/INFO]: <IIGrimXa10> SIn discord
-[16:25:10] [Async Chat Thread - #13/INFO]: <IIGrimXa10> Como le hacen?
-[16:25:23] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Creo que es un mod?'. Is the client/server system time unsynchronized?
-[16:25:23] [Async Chat Thread - #13/INFO]: [Not Secure] <xnikgoldx> Creo que es un mod?
-[16:26:25] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Ando mirando
-[16:26:29] [Async Chat Thread - #15/INFO]: <IIGrimXa10> que meterle al server
-[16:27:05] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Sabes
-[16:27:11] [Async Chat Thread - #15/INFO]: <IIGrimXa10> esta semilla me parece buena xd
-[16:27:16] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Sip, lo es'. Is the client/server system time unsynchronized?
-[16:27:16] [Async Chat Thread - #15/INFO]: [Not Secure] <xnikgoldx> Sip, lo es
-[16:27:36] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Apareces en la selva, a lado de un mineshaft, a lado del desierto y cerca a un poblado
-[16:27:37] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Lol
-[16:28:32] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'xd'. Is the client/server system time unsynchronized?
-[16:28:32] [Async Chat Thread - #15/INFO]: [Not Secure] <xnikgoldx> xd
-[16:28:38] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Sabes como funciona la tnt?
-[16:28:46] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Ya ni me acuerdo'. Is the client/server system time unsynchronized?
-[16:28:46] [Async Chat Thread - #15/INFO]: [Not Secure] <xnikgoldx> Ya ni me acuerdo
-[16:28:51] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Si pones un bloque
-[16:28:56] [Async Chat Thread - #15/INFO]: <IIGrimXa10> no hace tanto daño
-[16:29:08] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'igualmente no te la esperabas verdad?'. Is the client/server system time unsynchronized?
-[16:29:08] [Async Chat Thread - #15/INFO]: [Not Secure] <xnikgoldx> igualmente no te la esperabas verdad?
-[16:29:16] [Async Chat Thread - #15/INFO]: <IIGrimXa10> Si lo hacia
-[16:29:47] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'voy a pescar'. Is the client/server system time unsynchronized?
-[16:29:47] [Async Chat Thread - #15/INFO]: [Not Secure] <xnikgoldx> voy a pescar
-[16:30:15] [Server thread/INFO]: xnikgoldx has made the advancement [Fishy Business]
-[16:30:51] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'añadieron muchas cosas en estas ultimas verciones'. Is the client/server system time unsynchronized?
-[16:30:51] [Async Chat Thread - #17/INFO]: [Not Secure] <xnikgoldx> añadieron muchas cosas en estas ultimas verciones
-[16:31:00] [Async Chat Thread - #17/INFO]: <IIGrimXa10> Si algo
-[16:31:17] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'no jugaba desde la 1.12'. Is the client/server system time unsynchronized?
-[16:31:17] [Async Chat Thread - #17/INFO]: [Not Secure] <xnikgoldx> no jugaba desde la 1.12
-[16:33:26] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'la hoguera me parece OP'. Is the client/server system time unsynchronized?
-[16:33:26] [Async Chat Thread - #19/INFO]: [Not Secure] <xnikgoldx> la hoguera me parece OP
-[16:33:38] [Async Chat Thread - #19/INFO]: <IIGrimXa10> Esa una mieda
-[16:33:57] [Async Chat Thread - #19/INFO]: <IIGrimXa10> El pescado es horrible
-[16:33:59] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Cocina 4 cosas a la vez y no se apagara'. Is the client/server system time unsynchronized?
-[16:33:59] [Async Chat Thread - #19/INFO]: [Not Secure] <xnikgoldx> Cocina 4 cosas a la vez y no se apagara
-[16:34:02] [Async Chat Thread - #19/INFO]: <IIGrimXa10> Tiene poca saturacion
-[16:35:03] [Async Chat Thread - #21/INFO]: <IIGrimXa10> Skype murió
-[16:35:08] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'El pescado es una buena comida para empezar a jugar hasta tener la granja automatica de pollo asado'. Is the client/server system time unsynchronized?
-[16:35:08] [Async Chat Thread - #21/INFO]: [Not Secure] <xnikgoldx> El pescado es una buena comida para empezar a jugar hasta tener la granja automatica de pollo asado
-[16:35:16] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Si viste? Lo cerraron por teams'. Is the client/server system time unsynchronized?
-[16:35:16] [Async Chat Thread - #21/INFO]: [Not Secure] <xnikgoldx> Si viste? Lo cerraron por teams
-[16:36:52] [Server thread/INFO]: IIGrimXa10 has made the advancement [A Seedy Place]
-[16:38:16] [Server thread/INFO]: IIGrimXa10 was slain by Zombie Villager
-[16:38:20] [Async Chat Thread - #23/INFO]: <IIGrimXa10> xd3
-[16:38:21] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'Y si quieres hablar no es lo mismo una llamada por whatsap?'. Is the client/server system time unsynchronized?
-[16:38:21] [Async Chat Thread - #23/INFO]: [Not Secure] <xnikgoldx> Y si quieres hablar no es lo mismo una llamada por whatsap?
-[16:38:29] [Async Chat Thread - #23/INFO]: <IIGrimXa10> Discord es mejor
-[16:38:56] [Async Chat Thread - #23/INFO]: <IIGrimXa10> mira lo que atrape sin querer
-[16:39:08] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'un aldeano zombi y futuro esclavo'. Is the client/server system time unsynchronized?
-[16:39:08] [Async Chat Thread - #23/INFO]: [Not Secure] <xnikgoldx> un aldeano zombi y futuro esclavo
-[16:39:12] [Async Chat Thread - #23/INFO]: <IIGrimXa10> xd
-[16:40:15] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'tenemos un spawner de arañas venenosas en los spawn chunks'. Is the client/server system time unsynchronized?
-[16:40:15] [Async Chat Thread - #25/INFO]: [Not Secure] <xnikgoldx> tenemos un spawner de arañas venenosas en los spawn chunks
-[16:40:19] [Netty Epoll Server IO #2/WARN]: Received expired chat: 'profit?'. Is the client/server system time unsynchronized?
-[16:40:19] [Async Chat Thread - #25/INFO]: [Not Secure] <xnikgoldx> profit?
-[16:41:36] [Async Chat Thread - #27/INFO]: <IIGrimXa10> Uhmm
+[23:24:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[23:24:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[23:24:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:24:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[23:24:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:24:27] [ServerMain/INFO]: Loaded 1290 recipes
+[23:24:27] [ServerMain/INFO]: Loaded 1399 advancements
+[23:24:28] [Server thread/INFO]: Starting minecraft server version 1.21
+[23:24:28] [Server thread/INFO]: Loading properties
+[23:24:28] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[23:24:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:24:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:24:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:24:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[23:24:30] [Server thread/INFO]: Default game type: SURVIVAL
+[23:24:30] [Server thread/INFO]: Generating keypair
+[23:24:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:24:30] [Server thread/INFO]: Using epoll channel type
+[23:24:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:24:30] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:24:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:24:30] [Server thread/INFO]: Preparing level "world"
+[23:24:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:24:33] [Server thread/INFO]: Time elapsed: 1810 ms
+[23:24:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:24:33] [Server thread/INFO]: Time elapsed: 406 ms
+[23:24:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:24:34] [Server thread/INFO]: Time elapsed: 229 ms
+[23:24:34] [Server thread/INFO]: [spark] Starting background profiler...
+[23:24:34] [Server thread/INFO]: Done preparing level "world" (3.846s)
+[23:24:34] [Server thread/INFO]: Running delayed init tasks
+[23:24:34] [Server thread/INFO]: Done (18.261s)! For help, type "help"
+[23:24:34] [Server thread/INFO]: Timings Reset
+[23:33:15] [User Authenticator #0/INFO]: UUID of player IIGrimXa10 is 9db96c25-b94f-4c09-b775-def82a90fa87
+[23:33:17] [Server thread/INFO]: IIGrimXa10 joined the game
+[23:33:17] [Server thread/INFO]: IIGrimXa10[/127.93.207.44:33923] logged in with entity id 70 at ([world]-34.32692785123972, 71.0, 43.69999998807907)
